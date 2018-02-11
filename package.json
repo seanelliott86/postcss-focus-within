@@ -1,0 +1,36 @@
+{
+  "name": "postcss-focus-within",
+  "version": "0.0.0",
+  "description": "PostCSS plugin adds fallback for focus-within",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "focus-within",
+    "accessibility"
+  ],
+  "author": "Sean Elliott <sean@exemail.com.au>",
+  "license": "MIT",
+  "repository": "seanus1138/postcss-focus-within",
+  "bugs": {
+    "url": "https://github.com/seanus1138/postcss-focus-within/issues"
+  },
+  "homepage": "https://github.com/seanus1138/postcss-focus-within",
+  "dependencies": {
+    "postcss": "^6.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^21.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
